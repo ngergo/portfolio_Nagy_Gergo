@@ -1,0 +1,120 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	text-align: center;
+	height: 100%;
+}
+.befoglalo
+{
+width: 1170px;
+margin: 0 auto;
+
+
+}
+header
+{
+height:100px;
+background-color: #262626;
+width:100%;
+z-index: 1;
+position: fixed;
+}
+.nev
+{
+width: 30%;
+float: left;
+line-height: 100px;
+}
+.nev a
+{
+text-decoration: none;
+font-size: 30px;
+font-family: bignoodletitling;
+color:#fff;
+letter-spacing: 5px;
+}
+nav
+{
+float: right;
+line-height: 100px;
+}
+nav a
+{
+text-decoration: none;
+font-family: bignoodletitling;
+letter-spacing: 4px;
+font-size: 20px;
+margin: 0 10px;
+color: #fff;
+}
+.motivacio
+{
+width: 100%;
+height: 600px;
+position: fixed;
+top:100px;
+background-image: url(https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80) ;
+-webkit-background-size:cover;
+background-size:cover;
+background-position:center center;
+}
+.tartalom
+{
+width: 100%;
+position: relative;
+top: 600px;
+background: #ddd;
+height: 100%;
+
+}
+.tartalom h2
+{
+font-family: bignoodletitling;
+letter-spacing: 2px;
+padding-top: 30px;
+font-size: 40px;
+margin: 0;
+padding-bottom: 45px;
+}
+.tartalom p
+{
+padding: 4% 0;
+font-family: merienda;
+line-height: 30px;
+font-size: 20px;
+text-align: center;
+}
+
+.kapcsolat
+{
+display: inline-block;
+background-color: black;
+border: 2px lightgrey;
+border-radius: 10px;
+padding: 16px;
+margin: 16px;
+text-align: center;
+max-width: 430px;
+}
+
+.kapcsolat img{
+	height:315px;
+	max-height: 280px;
+	max-width: 400px;
+	display: block;
+	margin: 16px auto;
+	border-radius: 10px;
+}
+.kapcsolat span{
+	font-family: bignoodletitling;
+	font-size: 19px;
+	text-align: center;
+	padding-bottom: 10px;
+	color: white;
+}
+
+

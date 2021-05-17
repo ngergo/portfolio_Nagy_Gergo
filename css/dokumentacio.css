@@ -1,0 +1,124 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	text-align: center;
+	height: 100%;
+}
+.befoglalo
+{
+width: 1170px;
+margin: 0 auto;
+height: 100%;
+
+
+}
+header
+{
+height:100px;
+background-color: #262626;
+width:100%;
+z-index: 1;
+position: fixed;
+}
+.nev
+{
+width: 30%;
+float: left;
+line-height: 100px;
+}
+.nev a
+{
+text-decoration: none;
+font-size: 30px;
+font-family: bignoodletitling;
+color:#fff;
+letter-spacing: 5px;
+}
+nav
+{
+float: right;
+line-height: 100px;
+}
+nav a
+{
+text-decoration: none;
+font-family: bignoodletitling;
+letter-spacing: 4px;
+font-size: 20px;
+margin: 0 10px;
+color: #fff;
+}
+.motivacio
+{
+width: 100%;
+height: 600px;
+position: fixed;
+top:100px;
+background-image: url(https://images.unsplash.com/photo-1543286386-2e659306cd6c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80) ;
+-webkit-background-size:cover;
+background-size:cover;
+background-position:center center;
+}
+.tartalom
+{
+width: 100%;
+position: relative;
+top: 600px;
+background: #ddd;
+height: 100%;
+
+}
+.tartalom h2
+{
+font-family: bignoodletitling;
+letter-spacing: 2px;
+padding-top: 30px;
+font-size: 40px;
+margin: 0;
+padding-bottom: 40px;
+}
+.tartalom p
+{
+padding: 4% 0;
+font-family: merienda;
+line-height: 30px;
+font-size: 20px;
+text-align: center;
+
+}
+
+.tartalom span
+{
+font-family: bignoodletitling;
+letter-spacing: 1.5px;
+padding-top: 30px;
+margin: 0;
+padding-bottom: 35px;
+text-align: left;
+font-size: 20px;
+padding-right: 95%;
+font-weight: bold;
+}
+
+.lista a
+{
+font-family: bignoodletitling;
+	font-size: 19px;
+	text-align: left;
+
+	color: black;
+}
+
+.tartalom ul
+{	padding-top:25px;
+	padding-left: 80px;
+	text-align: left;
+	font-size: 20px;
+	font-family: bignoodletitling;
+	letter-spacing: 1px;
+	padding-bottom: 50px;
+}
